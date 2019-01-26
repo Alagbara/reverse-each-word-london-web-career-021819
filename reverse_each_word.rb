@@ -1,6 +1,6 @@
 
 def reverse_each_word(strings)
-  strings.split.reverse_each.map do |string|
+  strings.split.reverse.map do |string|
   string
   end
 end
