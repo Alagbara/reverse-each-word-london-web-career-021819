@@ -1,6 +1,6 @@
 
 def reverse_each_word(strings)
-  strings.reverse_each.map do |string|
+  strings.to_a.reverse_each.map do |string|
   retrun string
 end
 
