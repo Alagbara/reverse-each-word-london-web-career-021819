@@ -2,6 +2,7 @@
 def reverse_each_word(strings)
   strings.to_a.reverse_each.map do |string|
   retrun string
+  end
 end
 
 def reverse_each_word(string)
